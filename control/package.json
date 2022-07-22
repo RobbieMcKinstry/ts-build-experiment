@@ -1,13 +1,7 @@
 {
     "name": "node-test",
-    "scripts": {
-        "build": "./build.bash"
-    },
-    "main": "dist/out.js",
-    "type": "module",
     "devDependencies": {
-        "@types/node": "^14",
-        "esbuild": "^0.14.49"
+        "@types/node": "^14"
     },
     "dependencies": {
         "@pulumi/aws": "^5.10.0",
